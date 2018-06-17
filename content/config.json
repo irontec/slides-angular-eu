@@ -73,15 +73,25 @@
     ],
     [
       "07-services/01.md",
-      "07-services/02.md"
+      "07-services/02.md",
+      "07-services/03.md",
+      "07-services/04.md"
     ],    
     [
       "08-http/01.md",
-      "08-http/02.md"
+      "08-http/02.md",
+      "08-http/03.md",
+      "08-http/04.md",
+      "08-http/05.md"
     ],
     [
       "09-routing/01.md",
-      "09-routing/02.md"
+      "09-routing/02.md",
+      "09-routing/03.md",
+      "09-routing/04.md",
+      "09-routing/05.md",
+      "09-routing/06.md"
+
     ],
     "end.md"
   ]
