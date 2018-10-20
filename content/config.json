@@ -5,94 +5,49 @@
     "progress": true,
     "history": true,
     "center": true,
-    "slideNumber": false,
+    "slideNumber": true,
     "touch": true,
     "hideAddressBar": true,
     "mouseWheel": true
   },
+  "plugins": {
+    "search": true,
+    "zoom":   true,
+    "menu":   true,
+    "notes":  true,
+    "highlightjs": true
+  },
   "slides": [
     {"path": "index.md", "attrs": {"class":"intro"}},
     [
-      "01-intro/01.md",
-      "01-intro/02.md",
-      "01-intro/03.md",
-      "01-intro/04.md"
+      "01-intro/*"
     ],
     [
-      "02-start/01.md",
-      "02-start/02.md",
-      "02-start/03.md",
-      "02-start/04.md",
-      "02-start/05.md",
-      "02-start/06.md",
-      "02-start/07.md"
+      "02-start/*"
     ],
     [
-      "03-modules/01.md",
-      "03-modules/02.md",
-      "03-modules/03.md",
-      "03-modules/04.md",
-      "03-modules/05.md"
+      "03-modules/*"
     ],
     [
-      "04-components/01.md",
-      "04-components/02.md",
-      "04-components/03.md",
-      "04-components/04.md",
-      "04-components/05.md",
-      "04-components/06.md",
-      "04-components/07.md",
-      "04-components/08.md",
-      "04-components/09.md",
-      "04-components/10.md",
-      "04-components/11.md",
-      "04-components/12.md",
-      "04-components/13.md",
-      "04-components/14.md"
+      "04-components/*"
     ],
     [
-      "05-directives/01.md",
-      "05-directives/02.md",
-      "05-directives/03.md",
-      "05-directives/04.md",
-      "05-directives/05.md",
-      "05-directives/06.md",
-      "05-directives/07.md",
-      "05-directives/08.md",
-      "05-directives/09.md",
-      "05-directives/10.md",
-      "05-directives/11.md"
+      "05-directives/*"
     ],
     [
-      "06-pipes/01.md",
-      "06-pipes/02.md",
-      "06-pipes/03.md",
-      "06-pipes/04.md",
-      "06-pipes/05.md"
+      "06-pipes/*"
 
     ],
     [
-      "07-services/01.md",
-      "07-services/02.md",
-      "07-services/03.md",
-      "07-services/04.md"
-    ],    
-    [
-      "08-http/01.md",
-      "08-http/02.md",
-      "08-http/03.md",
-      "08-http/04.md",
-      "08-http/05.md"
+      "07-services/*"
     ],
     [
-      "09-routing/01.md",
-      "09-routing/02.md",
-      "09-routing/03.md",
-      "09-routing/04.md",
-      "09-routing/05.md",
-      "09-routing/06.md"
+      "08-http/*"
+    ],
+    [
+      "09-routing/*"
 
     ],
-    "end.md"
+    {"path": "end.md", "attrs": {"class":"last bg-red"}}
   ]
 }
